@@ -17,9 +17,7 @@ a {
 
     background: #a19f9f;
 }
-#test_task {
-    
-}
+
 .botton-nav {
     display: none;
 }
@@ -131,8 +129,7 @@ a {
     border:solid 1px #FFB13C;
     padding: 15px;
 }
-._req {
-}
+
 @media (max-width: 1194px) {
     .df-s_bar {
         width: 181px;
