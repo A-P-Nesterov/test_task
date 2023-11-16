@@ -1,0 +1,244 @@
+
+* {
+    box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.body {
+
+    background: #a19f9f;
+}
+#test_task {
+    
+}
+.botton-nav {
+    display: none;
+}
+
+/* .df {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.df_nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+} */
+.flex-conteiner {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.df-s_bar {
+    width: 190px;
+    height: 914px;
+    flex-shrink: 0;
+    background: #fff;
+    border-radius: 32px 32px 0px 0px;
+}
+.s_bar {
+    display: flex;
+    width: 121px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    flex-shrink: 0;
+    padding-top: 60px;
+    padding-left: 20px;
+
+
+}
+.exit {
+    padding-top: 430px;
+    padding-left: 20px;
+}
+.df {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.conteiner-personal_data {
+    width: 1030px;
+    height: 914px;
+    border-radius: 32px 32px 0px 0px;
+    background: #FFF;
+}
+
+.personal-data {
+    display: flex;
+    align-items: end;
+    padding-left: 105px;
+    padding-top: 60px;
+}
+.awatar {
+    display: flex;
+    align-items: end;
+
+}
+
+.vector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #FFB13C;
+    margin-left: -30px;
+}
+.addresses-history {
+    display: flex;
+    gap: 125px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.addresses-history a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    border-radius: 12px;
+    background: #F5F5F5;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+.form__item {
+    margin-top: 20px;
+}
+.form__title {
+    margin-bottom: 20px;
+}
+
+
+.form__input {
+    width: 579px;
+    height: 56px;
+    border-radius: 8px;
+    border:solid 1px #FFB13C;
+    padding: 15px;
+}
+._req {
+}
+@media (max-width: 1194px) {
+    .df-s_bar {
+        width: 181px;
+        height: 1104px;
+    }
+    .conteiner-personal_data {
+        width: 943px;
+        height: 1104px;
+    }
+    .awatar {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 120px;
+    }
+    .form__input {
+        width: 562px;
+        height: 56px;
+    }
+    
+}
+@media (max-width: 1080px) {
+    .df-s_bar {
+        width: 180px;
+        height: 1104px;
+    }
+    .conteiner-personal_data {
+        width: 572px;
+        height: 1104px;
+    }
+    
+    .personal-data {
+        display: block;
+        align-items: end;
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+    .addresses-history {
+        justify-content: center;
+        gap: 25px;
+        margin-left: 0px;
+    }
+    .awatar {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 30px;
+        height: 120px;
+    }
+    .form__input {
+        width: 439px;
+        height: 56px;
+    }
+    
+}
+@media (max-width: 375px) {
+    .df-s_bar {
+        display: none;
+    }
+    .conteiner-personal_data {
+        width: 343px;
+        height: 1104px;
+    }
+    
+    .personal-data {
+        display: block;
+        align-items: end;
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+    .addresses-history {
+        display: block;
+        margin: 0 auto;
+        width: 320px;
+
+    }
+    .addresses-history a {
+        width: 320px;
+        margin-top: 10px;
+    }
+    .awatar {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 30px;
+        height: 120px;
+    }
+    .form__input {
+        width: 320px;
+        height: 56px;
+    }
+    .botton-nav {
+        display: block;
+    }
+    .botton-nav_df {
+        display: flex;
+        align-items: end;
+    }
+    .botton-nav_df a {
+        padding: 10px;
+        font-style: 10px;
+    }
+}
+svg {
+    fill: black;
+}
+svg:hover {
+    fill: #FFB13C;
+}
